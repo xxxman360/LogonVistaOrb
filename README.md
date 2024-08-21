@@ -19,7 +19,7 @@ https://www.deviantart.com/xantic21/gallery?q=tuneup
 
 https://www.deviantart.com/yethzart/art/Authui-dll-Vista-RTM-and-SP1-84385962
 
-You may need [Resource Hacker]("https://www.angusj.com/resourcehacker/#download") to extract the images if the skin is offered as a DLL.
+You may need [Resource Hacker](https://www.angusj.com/resourcehacker/#download) to extract the images if the skin is offered as a DLL.
 
 If you'd also like to use a custom background image, you can copy a PNG image to the "Images" folder, and rename it to "background.png". This image will be stretched to fill the entire screen, so make sure it matches your monitor's aspect ratio.
 
@@ -35,7 +35,7 @@ LogonVistaOrb comes with a configuration tool to change how the program works. I
 ## Compiling the software
 LogonVistaOrb does not use a makefile, so you will need to manually compile it using a version of Visual Studio that supports the .NET Framework v4.8
 
-For whatever reason you wish to compile the source code, bare in mind, that if you want to publish your own fork of the program, you must abide by the rules of the [GPL v3.0]("https://github.com/xxxman360/LogonVistaOrb/blob/main/LICENSE").
+For whatever reason you wish to compile the source code, bare in mind, that if you want to publish your own fork of the program, you must abide by the rules of the [GPL v3.0](https://github.com/xxxman360/LogonVistaOrb/blob/main/LICENSE).
 
 ### Order of solutions to compile
 1. You will need to compile the LogonVistaOrbInit solution first, if you are not planning on modifying it, you can skip this step. 
