@@ -1,0 +1,35 @@
+﻿<Window x:Name="MainWindowBox" x:Class="LogonVistaOrb.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" 
+        WindowStyle="None" 
+        WindowState="Maximized"
+        Width="300"
+        Height="300"
+    AllowsTransparency="True"
+        ShowInTaskbar="False"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize" Closing="ProgramClosing" Cursor="None" Deactivated="Window_Deactivated" Background="Black">
+    <Grid>
+        <Image Name="BackgroundImage" Source="/LogonVistaOrb/Images/background.png" Canvas.Left="-150" Canvas.Top="-150" Stretch="Fill"/>
+        <Canvas HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Image Name="Image1" Width="300" Height="300" Source="/LogonVistaOrb/Images/0.png" Opacity="0" Canvas.Left="-150" Canvas.Top="-150" Loaded="Image_Loaded"/>
+            <Image Name="Image2" Width="300" Height="300" Source="/LogonVistaOrb/Images/1.png" Opacity="0" Canvas.Left="-150" Canvas.Top="-150" Loaded="Image_Loaded"/>
+            <Image Name="Image3" Width="300" Height="300" Source="/LogonVistaOrb/Images/2.png" Opacity="0" Canvas.Left="-150" Canvas.Top="-150" Loaded="Image_Loaded"/>
+            <Image Name="Image4" Width="300" Height="300" Source="/LogonVistaOrb/Images/3.png" Opacity="0" Canvas.Left="-150" Canvas.Top="-150" Loaded="Image_Loaded"/>
+            <Image Name="Image5" Width="300" Height="300" Source="/LogonVistaOrb/Images/4.png" Opacity="0" Canvas.Left="-150" Canvas.Top="-150" Loaded="Image_Loaded"/>
+        </Canvas>
+        
+    </Grid>
+</Window>
+
+<!--NOTES:
+    In the future, the following is subject to be added/have support for
+    -Custom backgrounds
+    -Custom background colors
+    -Custom animation images
+    -Custom animation lengths
+    -Custom animation fading
+    
+    These will able to be generated with a dedicated skin making program, which will also be open source and will run on the .NET Framework 4.8
+    -->

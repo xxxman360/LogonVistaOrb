@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "LogonVistaOrb": {
+      "commandName": "Project",
+      "commandLineArgs": "-testAnim"
+    }
+  }
+}
