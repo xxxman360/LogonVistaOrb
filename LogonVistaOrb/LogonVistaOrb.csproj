@@ -7,7 +7,7 @@
     <LangVersion>preview</LangVersion>
     <UseWPF>true</UseWPF>
     <PackageIcon></PackageIcon>
-    <Win32Resource>C:\Users\Marshall Lalonde\source\repos\LogonVistaOrb\LogonVistaOrb.res</Win32Resource>
+    <Win32Resource>LogonVistaOrb.res</Win32Resource>
   </PropertyGroup>
 
   <ItemGroup>
