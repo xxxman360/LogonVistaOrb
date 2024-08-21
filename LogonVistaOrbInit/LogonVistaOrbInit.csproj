@@ -50,7 +50,7 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
-    <Win32Resource>C:\Users\Marshall Lalonde\source\repos\LogonVistaOrbInit\LogonVistaOrbInit.res</Win32Resource>
+    <Win32Resource>LogonVistaOrbInit.res</Win32Resource>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestCertificateThumbprint>CB74F37D8B980E84F9D69C7205749998191495E7</ManifestCertificateThumbprint>
